@@ -1,0 +1,46 @@
+Camera id
+1 2 3 4 5 6 7 8 9 10
+event in each camera:
+2 3 6, 2 3 6, 2 3 6, 2 3 6, 2 3 6, 2 3 6, 2 3 6, 2 3 6, 2 3 6, 2 3 6
+time to start event for each camera:
+10 10 10 10 10 10 10 10 10 10
+numbers of frames in queue for each camera:
+10 10 10 10 10 10 10 10 10 10
+Timeout after publish to close event
+120 120 120 120 120 120 120 120 120 120
+Time from last close event
+240 240 240 240 240 240 240 240 240 240
+Time between smoke/leakage events or Time of no human detections for watchman
+240 240 240 240 240 240 240 240 240 240
+Time of no human detections for watchman
+300 300 300 300 300 300 300 300 300 300
+Max area of human
+0.6 0.6 0.6 0.6 0.6 0.6 0.6 0.6 0.6 0.6
+Min area of human
+0.02 0.02 0.02 0.02 0.02 0.02 0.02 0.02
+start interest area x for each camera:
+0 0 0 0 0 0 0 0 0 0
+end interest area x for each camera:
+1 1 1 1 1 1 1 1 1 1
+start interest area y for each camera:
+0 0 0 0 0 0 0 0 0 0
+end interest area y for each camera:
+1 1 1 1 1 1 1 1 1 1
+detection ratio (%):
+75 75 75 75 75 75 75 75 75 
+server address:
+192.168.111.144
+URL:
+http://127.0.0.1:4000/graphql
+video_streams_smoke path:
+C:/detection_net/video_streams.txt
+VIDEO_STREAMS_SMOKE PATH
+C:/detection_net/video_streams_smoke.txt
+include errors?
+true
+include warnings?
+true
+include info?
+true
+include debug massages?
+no
