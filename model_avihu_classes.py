@@ -908,7 +908,6 @@ def test(eventType):
                     objSubclass = int(str_list[3])
                     cameraId = int(str_list[0])
                     for i in range(len(finished_list)):
-                        print(serialId)
                         if serialId > lenght_per_video[i] and not finished_list[i]:
                             print(f"{list_of_videos_names[0][i]} has finished")
                             finished_list[i] = True
@@ -996,7 +995,7 @@ def test_summary(true_counter, false_counter, helmet_true_counter, helmet_false_
     print("finished the test, see results in the file")
     raise Finisihed_Error
 
-test(1)
+
 f.close()
 
 
